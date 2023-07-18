@@ -20,10 +20,6 @@ section {
 }
 
 /* nav */
-.logo {
-
-}
-
 .navigation {
     padding: 12px 0;
 }
@@ -50,26 +46,39 @@ section {
 .splash {
     height: 100vh;
     background: #fff;
-    background-image: url(https://i.postimg.cc/wjCtXq6W/background.jpg);
-    background-position: center center;
+    background-image: url(../images/splash.jpg);
     background-size: cover;
     position: relative;
-    width: 100%;
 }
 
 .splash-inner {
+    width: 100%;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
+    color: #fff;
 }
 
 .splash-button {
-    background: #ede431;
+    background: #000;
     color: #fff;
     text-decoration: none;
-    padding: 10px;
+    padding: 15px 40px;
+    font-size: 24px;
+    border-radius: 10px;
+}
+
+.splash-inner p {
+    font-size: 32px;
+    margin: 0;
+}
+
+.splash-inner h1 {
+    font-size: 64px;
+    margin: 0 0 24px 0;
+    text-transform: uppercase;
 }
 
 /* Services */
@@ -85,6 +94,7 @@ section {
 .section-subtitle {
     text-align: center;
     margin: 10px auto 50px auto;
+    color: #717171;
 }
 
 .wrapper {
@@ -118,4 +128,43 @@ section {
     border: 3px solid #ede431;
     color: #ede431;
 }
+
+/* Portfolio */
+.portfolio {
+    background: #f2f2f2;
+}
+
+.portfolio-item {
+    flex: 0 0 33.333%;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.portfolio-item-title, .portfolio-item-subtitle {
+    margin: 0;
+}
+
+.portfolio-item-image {
+    max-width: 300px;
+    height: 300px;
+}
+
+.portfolio-item-image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.portfolio-item-text {
+    text-align: center;
+    background: #fff;
+    padding: 20px 0;
+    max-width: 300px;
+    line-height: 1;
+}
+
+.portfolio-item-text p {
+    color: #717171;
+}
+
 /*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzdHlsZS5jc3MifQ== */
