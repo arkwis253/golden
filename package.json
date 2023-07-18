@@ -24,6 +24,7 @@
   "license": "ISC",
   "devDependencies": {
     "autoprefixer": "^10.2.4",
+    "browser-sync": "^2.29.3",
     "browsersync": "^0.0.1-security",
     "html-validate": "^8.0.5",
     "mkdirp": "^3.0.1",
