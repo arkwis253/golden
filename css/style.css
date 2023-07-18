@@ -6,11 +6,60 @@ body {
     margin: 0;
     font-size: 16px;
     line-height: 1.7;
-    
+}
+
+
+/* nav */
+.container {
+    max-width: 1440px;
+    padding: 0 20px;
+}
+
+.navigation {
+    font-size: 16px;
+    position: absolute;
+}
+
+.navigation ul {
 }
 
 .navigation ul li {
     display: inline-block;
 }
 
+.navigation a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.navbar-brand {
+    margin-right: auto;
+}
+
+
+/* splash */
+.splash {
+    height: 100vh;
+    background: #fff;
+    background-image: url(https://i.postimg.cc/wjCtXq6W/background.jpg);
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+}
+
+.splash-inner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.splash-button {
+    background: #ede431;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+}
 /*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzdHlsZS5jc3MifQ== */
